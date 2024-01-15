@@ -1,0 +1,26 @@
+.header__column-button {
+    max-width: 1320px;
+    padding: 0 60px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(255, 170, 76, 1);
+  }
+
+  @media screen and (max-width: 768px) {
+    .header__column-button {
+    max-width: calc (100vw - 48px);
+    margin: 0;
+    padding: 28px 24px 0;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .header__column-button {
+    max-width: calc (100vw - 32px);
+    margin: 0;
+    padding: 16px 16px 0;
+    min-width: 288px;
+    }
+  }
