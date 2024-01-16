@@ -1,0 +1,19 @@
+.floating__block {
+    position: relative;
+    overflow: hidden;
+}
+
+.floating__block::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 300%;
+    height: 100%;
+    animation: floatImages 10s linear infinite;
+}
+
+@keyframes floatImages {
+    from { left: -100%; } 
+    to { left: 100%; } 
+}

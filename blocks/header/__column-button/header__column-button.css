@@ -1,6 +1,5 @@
 .header__column-button {
-    max-width: 1320px;
-    padding: 0 60px 0;
+    width: 100vw;
     margin: 0 auto;
     display: flex;
     justify-content: start;

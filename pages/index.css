@@ -4,11 +4,55 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/button/button.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__contact/header__contact.css);
-@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__column-button/header__column-button.css);
 @import url(../blocks/header/__customers-button/header__customers-button.css);
-@import url(../blocks/header/__contact-button/header__contact-button.css);
 @import url(../blocks/header/__business-button/header__business-button.css);
 
-@import url(../blocks/button/button.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__contact-button/intro__contact-button.css);
+@import url(../blocks/intro/__info/intro__info.css);
+@import url(../blocks/intro/__logo/intro__logo.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__block/lead__block.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__image/lead__image.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__block/about__block.css);
+@import url(../blocks/about/__image/about__image.css);
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__text/cards__text.css);
+
+@import url(../blocks/scroll/scroll.css);
+
+@import url(../blocks/static/static.css);
+@import url(../blocks/static/__image/static__image.css);
+
+@import url(../blocks/floating/floating.css);
+@import url(../blocks/floating/__block/floating__block.css);
+@import url(../blocks/floating/__text/floating__text.css);
+@import url(../blocks/floating/__text/_color/floating__text_color_black.css);
+@import url(../blocks/floating/__text/_color/floating__text_color_blue.css);
+@import url(../blocks/floating/__text/_color/floating__text_color_orange.css);
+@import url(../blocks/floating/__text/_color//floating__text_color_purple.css);
+
+@import url(../blocks/digits/digits.css);
+
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__heading/table__heading.css);
+@import url(../blocks/table/__text/table__text.css);

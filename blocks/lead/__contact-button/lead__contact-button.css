@@ -1,0 +1,21 @@
+.lead__contact-button {
+    background-color: rgba(149, 76, 237, 1); 
+    min-height: 57px; 
+    min-width: 182px;
+    margin: 0; 
+    border-radius: 16px; 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 20px; 
+    line-height: 25.2px; 
+    text-align: center; 
+    color: rgba(255, 255, 255, 1); 
+    padding: 0;
+}
+
+@media screen and (max-width: 550px) { 
+    .lead__contact-button {
+      min-width: 343px;
+      margin: 40px 16px 0; 
+  } 
+} 
