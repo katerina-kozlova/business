@@ -1,0 +1,5 @@
+.resources__social-icon {
+    display: flex;
+    flex-direction: row;
+    margin: 0 45px 100px 60px;
+}

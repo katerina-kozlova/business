@@ -1,0 +1,5 @@
+.about__block_type_row {
+    display: flex;
+    flex-direction: row;
+    max-width: 588px;
+}

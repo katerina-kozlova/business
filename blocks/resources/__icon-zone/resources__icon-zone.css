@@ -1,0 +1,7 @@
+.resources__icon-zone {
+    display: flex;
+    flex-direction: column;
+    width: 473px;
+    justify-content: center;
+    margin: 0 0 0 33px;
+}

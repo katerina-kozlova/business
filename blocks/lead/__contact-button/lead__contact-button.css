@@ -1,7 +1,7 @@
 .lead__contact-button {
     background-color: rgba(149, 76, 237, 1); 
-    min-height: 57px; 
-    min-width: 182px;
+    height: 57px; 
+    max-width: 182px;
     margin: 0; 
     border-radius: 16px; 
     font-style: normal; 

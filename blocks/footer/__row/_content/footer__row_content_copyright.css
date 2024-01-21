@@ -1,0 +1,6 @@
+.footer__row_content_copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: rgba(68, 68, 68, 1) 2px solid;
+}

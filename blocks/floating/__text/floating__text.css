@@ -1,9 +1,15 @@
-.floating__text {
-    font-weight: 700;
-    font-size: 128px;
-    line-height: 135.68px;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+.floating__text { 
+    font-weight: 700; 
+    font-size: 128px; 
+    line-height: 135.68px; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center; 
+    white-space: nowrap;
+    animation: floatText 10s linear infinite alternate;
+}
 
+@keyframes floatText {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100%); }
 }

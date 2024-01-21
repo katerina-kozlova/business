@@ -1,0 +1,7 @@
+.footer__row_content_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 57px;
+    margin: 0 0 30px;
+}

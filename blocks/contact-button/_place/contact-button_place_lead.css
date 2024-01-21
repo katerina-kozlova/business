@@ -1,0 +1,6 @@
+@media screen and (max-width: 550px) { 
+    .contact-button_place_lead {
+      min-width: 343px;
+      margin: 40px 16px 0; 
+  } 
+} 

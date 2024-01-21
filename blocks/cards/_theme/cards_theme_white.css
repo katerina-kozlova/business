@@ -1,0 +1,7 @@
+.cards_theme_white {
+  width: 100%;
+  margin: 70px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

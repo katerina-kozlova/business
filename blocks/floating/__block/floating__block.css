@@ -1,19 +1,18 @@
 .floating__block {
     position: relative;
     overflow: hidden;
-}
-
-.floating__block::after {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+  }
+  
+  .floating__block::after {
     content: '';
     position: absolute;
     top: 0;
-    left: -100%;
-    width: 300%;
-    height: 100%;
-    animation: floatImages 10s linear infinite;
-}
-
-@keyframes floatImages {
-    from { left: -100%; } 
-    to { left: 100%; } 
-}
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: transparent; 
+    z-index: -1; 
+  }

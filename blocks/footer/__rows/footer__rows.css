@@ -1,0 +1,7 @@
+.footer__rows {
+    width: calc(100vw - 120px);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }

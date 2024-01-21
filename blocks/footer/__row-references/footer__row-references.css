@@ -1,0 +1,5 @@
+.footer__row-references {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 20px;
+}

@@ -1,0 +1,15 @@
+.popup__container {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    display: block;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: center;
+    min-width: 417px;
+  }
+
+  @media screen and (max-width: 550px) {
+    .popup__container {
+      width: 335px;
+    }
+  }

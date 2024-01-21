@@ -1,0 +1,7 @@
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto 80px;
+    max-width: 1300px;
+}

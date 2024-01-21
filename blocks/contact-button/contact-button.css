@@ -1,0 +1,14 @@
+.contact-button {
+    background-color: rgba(149, 76, 237, 1); 
+    height: 57px; 
+    width: 182px;
+    margin: 0; 
+    border-radius: 16px; 
+    font-style: normal; 
+    font-weight: 600; 
+    font-size: 20px; 
+    line-height: 25.2px; 
+    text-align: center; 
+    color: rgba(255, 255, 255, 1); 
+    padding: 0;
+}

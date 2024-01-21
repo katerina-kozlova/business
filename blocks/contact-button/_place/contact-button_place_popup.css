@@ -1,0 +1,18 @@
+.contact-button_place_popup {
+    margin: 20px 195px 40px 40px;
+}
+
+@media screen and (max-width: 550px) { 
+    .contact-button_place_popup { 
+      max-width: 303px; 
+      margin: 20px 16px;
+    } 
+  } 
+
+  .contact-button_place_popup:hover { 
+    opacity: 0.8; 
+  } 
+  
+  .contact-button_place_popup:disabled { 
+    background-color: rgba(185, 185, 185, 1); 
+  }   

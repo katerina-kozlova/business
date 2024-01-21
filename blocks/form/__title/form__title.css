@@ -1,0 +1,9 @@
+.form__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(7, 7, 7, 1);
+    padding: 0;
+    margin: 0 0 4px 0;
+    text-align: left;
+}

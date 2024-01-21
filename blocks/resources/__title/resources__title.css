@@ -1,0 +1,10 @@
+.resources__title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 101.76px;
+    color: rgba(0, 0, 0, 1);
+    padding: 0;
+    margin: 0 0 20px 0;
+    text-align: left;
+    max-width: 822px;
+}

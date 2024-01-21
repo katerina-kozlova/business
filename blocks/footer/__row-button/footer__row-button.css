@@ -1,0 +1,15 @@
+.footer__row-button {
+    background-color: rgba(24, 24, 24, 1); 
+    height: 25px; 
+    width: 110px;
+    margin: 0;
+    padding: 0;
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 25.2px; 
+    text-align: center; 
+    color: rgba(255, 255, 255, 1); 
+    white-space: nowrap;
+    align-self: center;
+}

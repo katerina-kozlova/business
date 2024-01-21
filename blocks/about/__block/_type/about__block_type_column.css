@@ -1,0 +1,4 @@
+.about__block_type_column {
+    display: flex;
+    flex-direction: column;
+}

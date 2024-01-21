@@ -1,0 +1,8 @@
+.resources__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: rgba(207, 207, 207, 1) 1px solid;
+    border-radius: 60px;
+    margin: 100px 60px;
+}

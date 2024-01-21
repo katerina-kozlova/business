@@ -1,0 +1,5 @@
+.footer__row-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 40px;
+}

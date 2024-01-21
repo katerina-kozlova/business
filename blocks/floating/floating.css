@@ -1,0 +1,5 @@
+.floating {
+    display: grid;
+    grid-template-rows: 136px 136px 136px;
+    row-gap: 68px;
+}

@@ -1,0 +1,8 @@
+.footer {
+    max-width: 1320px;
+    margin: 40px auto 20px;
+    background-color:rgba(24, 24, 24, 1);
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }

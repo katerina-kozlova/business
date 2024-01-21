@@ -1,0 +1,9 @@
+.cards__title_theme_white {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60.48px;
+    color: rgba(0, 0, 0, 1);
+    padding: 0;
+
+    text-align: left;
+}
