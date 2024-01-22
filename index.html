@@ -172,43 +172,43 @@
 
           <div id="popup-contact" class="popup popup_contact">
             <div class="popup__container">
-              <button aria-label="закрыть окно" type="button" id="close-button" class="button popup__close-button"></button> 
-              <form id="popup-form-add" class="form popup__form" novalidate>
+              <button aria-label="закрыть окно" type="button" id="close-button-contact" class="button popup__close-button"></button> 
+              <form id="popup-form-contact" class="form popup__form" novalidate>
 
                 <label class="form__field"> 
                   <h3 class="form__title">Name</h3>
-                  <input type="text" minlength="2" maxlength="30" name="name" id="name-input" class="popup__input form__input" required placeholder="Enter name"/> 
+                  <input type="text" minlength="1"  name="name" id="name-input" class="popup__input form__input" required placeholder="Enter name"/> 
                   <span class="name-input-error form__input-error"></span> 
                 </label> 
 
                 <label class="form__field"> 
                   <h3 class="form__title">Email</h3>
-                  <input type="email" minlength="2" maxlength="30" name="email" id="email-input" class="popup__input form__input" required placeholder="Enter email"/> 
+                  <input type="email" minlength="1" name="email" id="email-input" class="popup__input form__input" required placeholder="Enter email"/> 
                   <span class="email-input-error form__input-error"></span> 
                 </label> 
 
                 <label class="form__field"> 
                   <h3 class="form__title">Phone number</h3>
-                  <input type="number" minlength="2" maxlength="30" name="number" id="number-input" class="popup__input form__input" required placeholder=" + 1 900 000 00 00 "/> 
+                  <input type="tel" minlength="11" name="number" id="number-input" class="popup__input form__input" pattern="\+7\-[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}" required placeholder=" + 1 900 000 00 00 "/> 
                   <span class="number-input-error form__input-error"></span> 
                 </label> 
 
                 <label class="form__field"> 
                   <h3 class="form__title">Company</h3>
-                  <input type="text" minlength="2" maxlength="30" name="company" id="company-input" class="popup__input form__input" placeholder="Enter company"/> 
+                  <input type="text" minlength="1" name="company" id="company-input" class="popup__input form__input" placeholder="Enter company"/> 
                   <span class="company-input-error form__input-error"></span> 
                 </label> 
 
                 <label class="form__field"> 
                   <h3 class="form__title">Website/Store URL</h3>
-                  <input type="url" minlength="2" name="website" id="url-input" class="popup__input form__input" placeholder="Enter Website/Store URL"/> 
+                  <input type="url" minlength="1" name="website" id="url-input" class="popup__input form__input" placeholder="Enter Website/Store URL"/> 
                   <span class="url-input-error form__input-error"></span> 
                 </label> 
 
                 <p class="popup__text">Please fill in all required fields</p> 
                 <p class="popup__links">By submitting this form you are agreeing to Budss’s <a href="#" class="link popup__link" target="_blank">Privacy Policy</a> and <a href="#" class="link popup__link" target="_blank">Terms of Use</a></p> 
 
-                <button type="submit" id="submit-button" class="button popup__submit-button contact-button contact-button_place_popup" disabled>Contact sales</button> 
+                <button type="submit" id="submit-button-contact" class="button popup__submit-button contact-button contact-button_place_popup" disabled>Contact sales</button> 
               </form>
             </div>
           </div>
@@ -240,5 +240,6 @@
           </div>
         </footer>
     </div>
+    <script type="module" src="./pages/index.js" defer></script>
 </body> 
 </html>

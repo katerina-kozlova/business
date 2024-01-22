@@ -2,7 +2,7 @@
     margin: 0; 
     border: rgba(241, 241, 241, 1) 1px solid; 
     border-radius: 14px;
-    height: 27px; 
+    height: 40px; 
     box-sizing: border-box; 
     background-color: transparent; 
     font-style: normal; 
@@ -10,7 +10,7 @@
     font-size: 14px; 
     line-height: 22px; 
     padding: 9px 16px; 
-    min-width: 337px; 
+    width: 337px; 
   } 
    
   @media screen and (max-width: 550px) { 
