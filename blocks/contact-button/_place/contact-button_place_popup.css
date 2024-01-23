@@ -9,10 +9,16 @@
     } 
   } 
 
-  .contact-button_place_popup:hover { 
-    opacity: 0.8; 
-  } 
-  
-  .contact-button_place_popup:disabled { 
-    background-color: rgba(185, 185, 185, 1); 
-  }   
+  .contact-button_place_popup:hover {
+    background-color: black;
+}
+
+.contact-button_place_popup:focus {
+    background-color: rgba(149, 76, 237, 1);
+    border: rgba(186, 139, 243, 1) 2px solid;
+}
+
+.contact-button_place_popup:disabled {
+    background-color: rgba(185, 185, 185, 1);
+    color:rgba(255, 255, 255, 1);
+}

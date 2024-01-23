@@ -1,0 +1,13 @@
+.popup__container_type_politeness {
+    width: 417px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+@media screen and (max-width: 550px) {
+    .popup__container_type_politeness {
+      width: 335px;
+    }
+  }

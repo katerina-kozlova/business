@@ -7,12 +7,12 @@ const popupContact = document.querySelector("#popup-contact");
 const buttonsOpenPopupContact = Array.from(document.querySelectorAll(".contact-button"));
 const buttonClosePopupContact = document.querySelector("#close-button-contact");
 const formAddContact = document.querySelector("#popup-form-contact");
-const buttonSaveNewContact = document.querySelector('#submit-button-contact');
+const popupPoliteness = document.querySelector("#popup-politeness");
+const buttonSuper = document.querySelector("#submit-button-politeness");
+const buttonClosePopupPoliteness = document.querySelector("#close-button-politeness");
 
-// call up validation
 enableValidation(validationConfig); 
 
-// call up functions
 buttonsOpenPopupContact.forEach(button => { 
     button.addEventListener("click", function () {
         formAddContact.reset(); 
@@ -23,9 +23,17 @@ buttonClosePopupContact.addEventListener("click", function () {
     closePopup(popupContact);
 });
 
-// Функция «отправки» формы добавления новой карточки 
 function handleFormAddSubmit(evt) { 
     evt.preventDefault();
-    closePopup(popupContact); 
+    closePopup(popupContact);
+    openPopup(popupPoliteness);
 } 
 formAddContact.addEventListener("submit", handleFormAddSubmit); 
+
+buttonClosePopupPoliteness.addEventListener("click", function () { 
+    closePopup(popupPoliteness);
+});
+
+buttonSuper.addEventListener("click", function () { 
+    closePopup(popupPoliteness);
+});

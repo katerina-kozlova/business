@@ -12,3 +12,19 @@
     color: rgba(255, 255, 255, 1); 
     padding: 0;
 }
+
+.contact-button:hover {
+    background-color: rgba(149, 76, 237, 0.2);
+    border: rgba(149, 76, 237, 1) 2px solid;
+}
+
+.contact-button:focus {
+    background-color: transparent;
+    border: rgba(149, 76, 237, 1) 2px solid;
+}
+
+.contact-button:disabled {
+    background-color: black;
+    border: rgba(185, 185, 185, 1) 2px solid;
+    color: rgba(185, 185, 185, 1); 
+}
