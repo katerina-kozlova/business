@@ -3,3 +3,16 @@
     flex-direction: column;
     margin: 100px 0 100px;
 }
+
+
+@media screen and (max-width: 1090px) {
+    .about {
+      margin: 80px 60px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about {
+    margin: 40px 0 40px;
+    }
+  }

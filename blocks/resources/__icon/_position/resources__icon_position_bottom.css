@@ -3,3 +3,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1160px) {
+    .resources__icon_position_bottom {
+        margin: 0 0 0 110px;
+    }
+  }

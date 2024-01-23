@@ -1,3 +1,9 @@
 .contact-button_place_intro {
     margin: 7px 60px 7px 0; 
 }
+
+@media screen and (max-width: 760px) { 
+    .contact-button_place_intro {
+        display: none; 
+  } 
+} 

@@ -1,0 +1,25 @@
+@media screen and (max-width: 1420px) {
+    .resources__text-zone {
+        width: 545px;
+    }
+  }
+
+  @media screen and (max-width: 1160px) {
+    .resources__text-zone {
+        width: 830px;
+        margin: 0 auto 20px;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    .resources__text-zone {
+        width: 537px;
+    }
+  }
+
+
+  @media screen and (max-width: 550px) {
+    .resources__text-zone {
+        width: 355px;
+    }
+  }

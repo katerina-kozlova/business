@@ -3,3 +3,9 @@
     grid-template-columns: repeat(3, auto);
     column-gap: 20px;
 }
+
+@media screen and (max-width: 1270px) {
+    .footer__row-references {
+        display: none;
+    }
+  }

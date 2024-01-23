@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 550px) { 
     .contact-button_place_popup { 
-      max-width: 303px; 
+      width: 303px; 
       margin: 0;
     } 
   } 

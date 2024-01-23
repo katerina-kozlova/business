@@ -3,3 +3,9 @@
     background-position: center;
     max-width: 100%;
 }
+
+@media screen and (max-width: 456px) { 
+    .lead__image {
+      margin: 124px 0 0 50px; 
+  } 
+} 

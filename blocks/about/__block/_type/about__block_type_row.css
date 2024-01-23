@@ -3,3 +3,9 @@
     flex-direction: row;
     max-width: 588px;
 }
+
+@media screen and (max-width: 1090px) {
+    .about__block_type_row {
+        flex-direction: column;
+    }
+  }

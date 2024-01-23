@@ -8,3 +8,9 @@
     margin: 0;
   }
   
+  @media screen and (max-width: 620px) {
+    .cards__image_theme_white_n_3 {
+      left: 135px;
+      bottom: 0;
+    }
+  }

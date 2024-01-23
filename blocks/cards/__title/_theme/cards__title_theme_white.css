@@ -4,6 +4,22 @@
     line-height: 60.48px;
     color: rgba(0, 0, 0, 1);
     padding: 0;
-
     text-align: left;
 }
+
+
+@media screen and (max-width: 1350px) {
+    .cards__title_theme_white {
+        font-size: 40px;
+        line-height: 33.92px;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .cards__title_theme_white {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 33.92px;
+        margin: 0 0 16px;
+    }
+  }

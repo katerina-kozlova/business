@@ -3,3 +3,24 @@
     margin: 40px auto;
     list-style-type: none;
   }
+
+  @media screen and (max-width: 1000px) {
+    .table__cell {
+      margin: 15px;
+    }
+  }
+
+
+  @media screen and (max-width: 840px) {
+    .table__cell {
+      display: flex;
+      flex-direction: row;
+      margin: 40px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .table__cell {
+      margin: 40px 16px;
+    }
+  }

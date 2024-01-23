@@ -5,3 +5,11 @@
     height: 57px;
     margin: 0 0 30px;
 }
+
+@media screen and (max-width: 1270px) {
+    .footer__row_content_info {
+        flex-direction: column;
+        height: 539px;
+        margin: 0 0 40px;
+    }
+  }

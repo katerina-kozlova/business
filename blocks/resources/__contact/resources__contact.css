@@ -6,3 +6,9 @@
     border-radius: 60px;
     margin: 100px 60px;
 }
+
+@media screen and (max-width: 1160px) {
+    .resources__contact {
+        margin: 40px 16px;
+    }
+  }

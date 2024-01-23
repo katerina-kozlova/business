@@ -4,7 +4,7 @@ import { enableValidation } from "../components/validation.js";
 
 // CONSTANTS FOR CONTACT MODAL
 const popupContact = document.querySelector("#popup-contact");
-const buttonOpenPopupContact = document.querySelector(".contact-button");
+const buttonsOpenPopupContact = Array.from(document.querySelectorAll(".contact-button"));
 const buttonClosePopupContact = document.querySelector("#close-button-contact");
 const formAddContact = document.querySelector("#popup-form-contact");
 const buttonSaveNewContact = document.querySelector('#submit-button-contact');
@@ -13,9 +13,11 @@ const buttonSaveNewContact = document.querySelector('#submit-button-contact');
 enableValidation(validationConfig); 
 
 // call up functions
-buttonOpenPopupContact.addEventListener("click", function () { 
-    formAddContact.reset(); 
-    openPopup(popupContact); 
+buttonsOpenPopupContact.forEach(button => { 
+    button.addEventListener("click", function () {
+        formAddContact.reset(); 
+        openPopup(popupContact); 
+    })
 }); 
 buttonClosePopupContact.addEventListener("click", function () { 
     closePopup(popupContact);

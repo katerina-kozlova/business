@@ -7,3 +7,11 @@
     margin: 0 auto 20px;
     text-align: left;
 }
+
+@media screen and (max-width: 1190px) {
+    .cards__title {
+        font-size: 32px;
+        line-height: 33.92px;
+        margin: 0 auto 16px;
+    }
+  }

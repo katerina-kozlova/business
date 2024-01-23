@@ -1,0 +1,13 @@
+@media screen and (max-width: 1180px) {
+    .cards__title_theme_white_location_right {
+        margin-left: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 620px) {
+    .cards__title_theme_white_location_right {
+        margin: 0 0 16px;
+    }
+  }
+
+  

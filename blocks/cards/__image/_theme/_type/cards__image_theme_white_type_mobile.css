@@ -1,0 +1,18 @@
+.cards__image_theme_white_type_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1180px) {
+    .cards__image_theme_white_type_mobile {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 343px;
+        height: 193px;
+        border-radius: 0 0 0 30px;
+        background-size: cover;
+        margin: 0;
+    }
+  }
+  

@@ -8,3 +8,9 @@
   background-size: cover;
   margin: 0;
 }
+
+@media screen and (max-width: 1180px) {
+  .cards__image_theme_white_n_1 {
+      display: none;
+  }
+}

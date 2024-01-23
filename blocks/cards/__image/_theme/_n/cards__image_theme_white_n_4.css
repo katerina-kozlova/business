@@ -8,3 +8,9 @@
     margin: 0;
   }
   
+  @media screen and (max-width: 620px) {
+    .cards__image_theme_white_n_4 {
+      right: 0;
+      top: 201px;
+    }
+  }

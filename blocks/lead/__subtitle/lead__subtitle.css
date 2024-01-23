@@ -8,10 +8,10 @@
     text-align: left;
     }
 
-@media screen and (max-width: 320px) {
-  .lead__subtitle {
-    font-size: 16px;
-    line-height: 20.16px;
-    margin: 20px 0 40px;
-  }
-} 
+    @media screen and (max-width: 456px) {
+      .lead__subtitle {
+        font-size: 16px;
+        line-height: 20.16px;
+        margin: 20px 0 40px;
+      }
+    } 

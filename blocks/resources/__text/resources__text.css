@@ -7,3 +7,12 @@
     margin: 60px auto 0;
     text-align: center;
 }
+
+
+@media screen and (max-width: 550px) {
+    .resources__text {
+        font-size: 40px;
+        line-height: 42.4px;
+        margin: 40px auto 0;
+    }
+  }

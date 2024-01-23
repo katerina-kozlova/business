@@ -1,0 +1,17 @@
+.intro__menu {
+    display: none;
+    padding: 0;
+    margin-right: 60px;
+}
+
+@media screen and (max-width: 760px) {
+    .intro__menu {
+    display: block;
+    }
+  }
+
+  @media screen and (max-width: 456px) {
+    .intro__menu {
+      margin: 15px 16px 0 0;
+    }
+  }

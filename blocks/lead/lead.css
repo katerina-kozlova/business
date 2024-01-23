@@ -1,4 +1,25 @@
 .lead {
     display: flex;
     flex-direction: row;
+    width: calc (100vw - 110px);
+    margin: 0 0 0 110px;
 }
+
+
+@media screen and (max-width: 800px) {
+    .lead {
+        margin: 0 0 0 60px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .lead {
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 660px) { 
+    .lead {
+      margin: 0 ; 
+  } 
+} 

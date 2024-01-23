@@ -5,3 +5,18 @@
     width: 416px;
     margin: 40px auto 86px 60px;
 }
+
+@media screen and (max-width: 1350px) {
+    .cards__description_theme_white_n_2 {
+        width: 350px;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .cards__description_theme_white_n_2 {
+        width: 305px;
+        margin: 20px 20px auto 20px;
+    }
+  }
+
+  

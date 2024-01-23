@@ -6,3 +6,9 @@
     justify-content: center;
     box-sizing: border-box;
   }
+
+  @media screen and (max-width: 660px) {
+    .footer {
+      margin: 20px auto;
+    }
+  }

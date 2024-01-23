@@ -13,3 +13,17 @@
     from { transform: translateX(-100%); }
     to { transform: translateX(100%); }
 }
+
+@media screen and (max-width: 800px) {
+    .floating__text {
+        font-size: 78px; 
+        line-height: 50.88px; 
+    }
+  }
+
+
+  @media screen and (max-width: 660px) {
+    .floating__text {
+        font-size: 48px; 
+    }
+  }

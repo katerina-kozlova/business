@@ -1,3 +1,10 @@
 .contact-button_place_resources {
     margin: 40px auto 60px; 
 }
+
+@media screen and (max-width: 550px) {
+    .contact-button_place_resources {
+        width: 303px;
+        margin: 40px auto;
+    }
+  }
