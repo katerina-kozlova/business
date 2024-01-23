@@ -1,0 +1,7 @@
+.slider__container {
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto 0;
+}
