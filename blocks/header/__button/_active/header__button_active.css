@@ -1,0 +1,4 @@
+.header__button_active {
+    background-color: rgba(24, 24, 24, 1);
+    color: rgba(255, 255, 255, 1); 
+}

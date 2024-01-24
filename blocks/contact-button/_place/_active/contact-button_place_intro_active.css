@@ -1,0 +1,9 @@
+.contact-button_place_intro_active {
+    display: block; 
+}
+
+@media screen and (max-width: 760px) { 
+    .contact-button_place_intro_active {
+        display: none; 
+  } 
+} 

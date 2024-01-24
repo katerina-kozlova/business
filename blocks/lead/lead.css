@@ -3,6 +3,7 @@
     flex-direction: row;
     width: calc (100vw - 110px);
     margin: 0 0 0 110px;
+    overflow: hidden;
 }
 
 

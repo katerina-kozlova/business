@@ -1,0 +1,15 @@
+.popup_menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(24, 24, 24, 1);
+  transition: opacity 0.5s ease, visibility 0.5s ease; 
+  visibility: hidden; 
+  opacity: 0; 
+}
+  

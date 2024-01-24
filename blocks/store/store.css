@@ -1,0 +1,13 @@
+.store {
+    display: none;
+    width: 135px;
+    border: rgba(149, 76, 237, 1) 1px solid;
+    border-radius: 16px;
+    margin: 7px 60px 7px 0; 
+}
+
+@media screen and (max-width: 760px) { 
+    .store {
+        display: none; 
+  } 
+} 

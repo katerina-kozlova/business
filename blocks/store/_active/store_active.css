@@ -1,0 +1,11 @@
+.store_active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 760px) { 
+    .store_active {
+        display: none; 
+  } 
+} 

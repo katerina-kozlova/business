@@ -1,0 +1,11 @@
+.popup__menu-reference {
+    margin: 0 auto 16px 0;
+    padding: 0;
+    font-style: normal; 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 25.2px; 
+    text-align: start; 
+    color: rgba(255, 255, 255, 1); 
+    white-space: nowrap;
+}

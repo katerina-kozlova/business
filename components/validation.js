@@ -70,7 +70,6 @@ const showInputError = (formElement, inputElement, errorMessage, settings) => {
     const buttonElement = formElement.querySelector(settings.submitButtonElement);
     const errorMessageElement = formElement.querySelector(".popup__text");
    
-    // call up toggleButtonState
     toggleButtonState(inputList, buttonElement, settings);
     toggleErrorMessage(formElement, inputList, errorMessageElement);
     inputList.forEach((inputElement) => { 
@@ -81,6 +80,17 @@ const showInputError = (formElement, inputElement, errorMessage, settings) => {
         }); 
     }); 
   }; 
+
+  export const clearValidation = (formElement, settings) => { 
+    const inputList = Array.from(formElement.querySelectorAll(settings.inputElement)); 
+    const buttonElement = formElement.querySelector(settings.submitButtonElement); 
+     
+    inputList.forEach((inputElement) => { 
+      hideInputError(formElement, inputElement, settings); 
+    }); 
+     
+    disableButton(buttonElement); 
+  };
    
   // call up setEventListeners 
   export const enableValidation = (settings) => { 
