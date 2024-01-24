@@ -28,7 +28,6 @@ enableValidation(validationConfig);
 buttonsOpenPopupContact.forEach(button => { 
     button.addEventListener("click", function () { 
         formAddContact.reset();
-        clearValidation(formAddContact, validationConfig); 
         openPopup(popupContact); 
     })
 }); 
