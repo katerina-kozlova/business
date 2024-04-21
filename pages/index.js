@@ -21,9 +21,27 @@ const buttonOpenPopupMenu = document.querySelector(".intro__menu");
 const buttonClosePopupMenu = document.querySelector("#close-button-menu");
 const buttonOpenPopupContactPlaceMenu = document.querySelector(".contact-button_place_menu");
 
+const popupCookie = document.querySelector("#popup-cookie");
+const buttonClosePopupCookie = document.querySelector("#close-button-cookie");
+const buttonAcceptPopupCookie = document.querySelector("#acceptBtn");
+const buttonDeclinePopupCookie = document.querySelector("#declineBtn");
+
 const intro = document.querySelector(".intro");
 
 enableValidation(validationConfig); 
+
+setTimeout(() => {
+    popupCookie.classList.add("popup_opened");
+}, 5000);
+buttonClosePopupCookie.addEventListener("click", () => {
+    closePopup(popupCookie);
+});
+buttonAcceptPopupCookie.addEventListener("click", () => {
+    closePopup(popupCookie);
+});
+buttonDeclinePopupCookie.addEventListener("click", () => {
+    closePopup(popupCookie);
+});
 
 buttonsOpenPopupContact.forEach(button => { 
     button.addEventListener("click", function () { 

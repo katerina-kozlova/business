@@ -1,0 +1,16 @@
+.popup__cookie-text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color:rgba(56, 56, 56, 1);
+    padding: 0;
+    margin: 30px auto 30px 30px;
+    text-align: left;
+    max-width: 783px;
+}
+
+@media screen and (max-width: 983px) {
+    .popup__cookie-text {
+        margin: 30px 20px 40px;
+    }
+  }

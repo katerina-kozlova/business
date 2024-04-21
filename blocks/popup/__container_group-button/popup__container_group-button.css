@@ -1,0 +1,22 @@
+.popup__container_group-button {
+    display: grid;
+    grid-template-columns: repeat(2, 124px);
+    column-gap: 20px;
+    margin: auto 60px auto 140px;
+}
+
+@media screen and (max-width: 1190px) {
+    .popup__container_group-button {
+      margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 983px) {
+    .popup__container_group-button {
+        width: calc(100% - 40px);
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 57px);
+        row-gap: 20px;
+        margin: 0 auto 30px;
+    }
+  }

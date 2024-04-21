@@ -1,0 +1,20 @@
+.popup__container_type_cookie {
+    width: calc(100vw - 175px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+@media screen and (max-width: 983px) {
+    .popup__container_type_cookie {
+      width: 500px;
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .popup__container_type_cookie {
+        width: calc(100vw - 40px);
+    }
+  }
