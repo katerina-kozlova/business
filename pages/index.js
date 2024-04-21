@@ -1,8 +1,11 @@
-import { openPopup, closePopup } from "../components/modal.js";
+'use strict';
+
+import { openPopup, closePopup, handleOverlayClose } from "../components/modal.js";
 import { validationConfig } from "../components/constants.js";
 import { enableValidation, clearValidation } from "../components/validation.js";
 
 // CONSTANTS
+const popupsCloseOverlay = document.querySelectorAll(".popup__overlay-button");
 const popupContact = document.querySelector("#popup-contact");
 const buttonsOpenPopupContact = Array.from(document.querySelectorAll(".contact-button"));
 const buttonClosePopupContact = document.querySelector("#close-button-contact");
@@ -32,7 +35,7 @@ enableValidation(validationConfig);
 
 setTimeout(() => {
     popupCookie.classList.add("popup_opened");
-}, 5000);
+}, 3000);
 buttonClosePopupCookie.addEventListener("click", () => {
     closePopup(popupCookie);
 });
@@ -46,14 +49,17 @@ buttonDeclinePopupCookie.addEventListener("click", () => {
 buttonsOpenPopupContact.forEach(button => { 
     button.addEventListener("click", function () { 
         formAddContact.reset();
-        openPopup(popupContact); 
+        openPopup(popupContact);
     })
 }); 
 buttonClosePopupContact.addEventListener("click", function () { 
     closePopup(popupContact);
 });
+popupsCloseOverlay.forEach((popup) => { 
+    popup.addEventListener("mousedown", handleOverlayClose); 
+}); 
 
-function handleFormAddSubmit(evt) { 
+const handleFormAddSubmit = (evt) => { 
     evt.preventDefault();
     closePopup(popupContact);
     openPopup(popupPoliteness);
@@ -95,7 +101,7 @@ buttonClosePopupMenu.addEventListener("click", () => {
     closePopup(popupMenu);
 });
 
-function introFixedOnTop() {
+const introFixedOnTop = () => {
     if (window.scrollY > 38) {
         intro.classList.add("intro_active");
     } else {
